@@ -16,7 +16,7 @@ public class InteraccionUsuario {
 	 * @param numRandom
 	 * @return Devuelve el numero de intentos
 	 */
-	public static int usuarioAdivineNum(int numRandom) 
+	public int usuarioAdivineNum(int numRandom) 
 	{
 		int i = 0;
 		boolean coincide = false;
@@ -54,7 +54,7 @@ public class InteraccionUsuario {
 	 * @param numRandom
 	 * @param intento
 	 */
-	private static void pista(int numRandom, int intento) 
+	private void pista(int numRandom, int intento) 
 	{
 		if(numRandom > intento)
 		{
